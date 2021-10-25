@@ -7,5 +7,5 @@ jobs:
     steps:
       - name: Running Docker
         run: |
-          docker build -t flask-docker .
+          docker build . --file Dockerfile --tag flask-docker
           docker run flask-docker:latest

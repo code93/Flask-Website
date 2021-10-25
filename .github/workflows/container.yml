@@ -5,6 +5,7 @@ jobs:
   run-shell-command:
     runs-on: ubuntu-latest
     steps:
+      - uses: actions/checkout@v2
       - name: Running Docker
         run: |
           docker build . --file Dockerfile --tag flask-docker

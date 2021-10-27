@@ -10,4 +10,4 @@ COPY . .
 COPY companyblog companyblog
 COPY migrations migrations
 COPY model model
-CMD ["flask", "run","--host=0.0.0.0"]
+

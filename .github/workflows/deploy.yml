@@ -1,4 +1,4 @@
-name: Build and Push Docker
+name: deploy_docker
 on: [push: branches: [ master ], pull_request: branches: [ master ]]
 
 jobs:
